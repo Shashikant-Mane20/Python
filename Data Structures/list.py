@@ -28,6 +28,16 @@
 #Accessing items
 #positive indexing
 
-list1=["apple","banana","mango"]
-l=list1[0:3]
-print(l)
+# list1=["apple","banana","mango"]
+# l=list1[0:2] #['apple', 'banana']
+# print(l)
+
+#negative indexing
+
+# l1=[1,2,3,4,5,6,7,8] 
+# l2=l1[-1:-7:-1] #[8, 7, 6, 5, 4, 3]
+# l3=l1[-3::] #[6, 7, 8]
+# l4=l1[::-2] #[8, 6, 4, 2]
+# print(l2)
+# print(l3)
+# print(l4)
