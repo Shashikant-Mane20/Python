@@ -85,7 +85,31 @@ print("Slope is:",m)
 print("x_intercept:",x_intercept)
 print("y_intercept:",y_intercept)
 
+# Find the length of 'python' and 'dragon' and make a falsy comparison statement.
+
 p=len("python")
 d=len("dragon")
 
 print(p==d)
+
+o="on" in "python" and "o" in "dragon"
+print(o)
+
+# I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
+
+# str="I hope this course is not full of jargon"
+# jargon="jargon"
+# print(jargon in str)
+
+# There is no 'on' in both dragon and python
+
+print("o" not in "python" and "o" not in "dragon")
+
+# Find the length of the text python and convert the value to float and convert it to string
+
+st="python"
+length=len(st)
+fl=float(length)
+print(type(fl))
+string=str(float)
+print(type(string))
