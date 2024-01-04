@@ -113,3 +113,68 @@ fl=float(length)
 print(type(fl))
 string=str(float)
 print(type(string))
+
+# Even numbers are divisible by 2 and the remainder is zero.
+# How do you check if a number is even or not using python?
+
+# number=int(input("Enter number:"))
+
+# if number%2==0:
+#     print("Even number")
+
+# Check if the floor division of 7 by 3 is
+# equal to the int converted value of 2.7.
+# a=7
+# b=3
+
+# f_d=(7//3)
+# print(f_d)
+
+# c_v=int(2.7)
+# is_equal=(f_d==c_v)
+
+# print(is_equal)
+
+# Check if type of '10' is equal to type of 10
+
+# n=type('10')
+# m=10
+
+# print(n==type(m))
+
+# Check if int('9.8') is equal to 10
+
+# p=int('10')==10
+# print(p)
+
+# Writ a script that prompts the user to enter hours and 
+# rate per hour. Calculate pay of the person?
+
+# hr=int(input('Enter Hourse:'))
+# rate=int(input("Enter rate per hour:"))
+
+# pay=hr*rate
+# print("Your weekly eatning is:",pay)
+
+
+# Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years
+
+# year=int(input("Enter number of years you have lived:"))
+
+# seconds=31536000*year
+
+# print("You have lived for",seconds,"seconds.")
+
+# Write a Python script that displays the following table
+# 1 1 1 1 1
+# 2 1 2 4 8
+# 3 1 3 9 27
+# 4 1 4 16 64
+# 5 1 5 25 125
+
+# Display the table
+for i in range(1, 6):
+    row = f"{i} 1 {i} {i**2} {i**3}"
+    print(row)
+
+
