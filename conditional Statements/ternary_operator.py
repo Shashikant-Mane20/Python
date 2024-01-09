@@ -18,3 +18,8 @@ number=int(input("Enter a number:"))
 
 result="even" if number%2==0 else "odd"
 print(result)
+
+raining=input("Enter Yes/N0:")
+res="raining,bring umbrella" if raining=="Yes" else "Not raining" 
+
+print(res)

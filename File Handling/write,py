@@ -1,0 +1,8 @@
+fp=open("data.txt","w") #step1: open file in write mode
+
+n=input("Enter Name:")
+num=input("Enter your number:")
+
+data=n+":"+num
+fp.write(data)
+fp.close()
