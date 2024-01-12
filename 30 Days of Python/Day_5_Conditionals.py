@@ -48,13 +48,32 @@
 #     print("F grade")
 
 
-month=input("Enter a month to check season:")
+# month=input("Enter a month to check season:")
 
-if month=="September" or month=="October" or month=="November":
-    print("Autumn")
-elif month=="Dacember" or month=="January" or month=="February":
-    print("Winter")
-elif month=="March" or month=="April" or month=="May":
-    print("Spring")
-else:
-    print("Summer")
+# if month=="September" or month=="October" or month=="November":
+#     print("Autumn")
+# elif month=="Dacember" or month=="January" or month=="February":
+#     print("Winter")
+# elif month=="March" or month=="April" or month=="May":
+#     print("Spring")
+# else:
+#     print("Summer")
+
+#match case
+
+num1=int(input("Enter number1:"))
+num2=int(input("Enter number2:"))
+
+operator=input("Enter Operator:")
+
+match operator:
+    case"+":
+        print("sum:",num1+num2)
+    case"-":
+        print("diff:",num1-num2)
+    case"*":
+        print("product:",num1*num2)
+    case"/":
+        print("quotient:",num1/num2)
+    case _:
+        print("Please enter right operator")
