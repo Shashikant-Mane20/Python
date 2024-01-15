@@ -17,3 +17,5 @@ print(l)
 #Accessing element from string
 s='I am Shashikant'
 print(s[0:8:2])
+print(s[:-6:-1])
+print(s[-1:6])
