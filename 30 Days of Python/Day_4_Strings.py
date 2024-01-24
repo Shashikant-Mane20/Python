@@ -154,3 +154,124 @@ f'and I am {gender}'
 print(introduction)
 
 print(f'I am {age}years old {gender} and {introduction}')
+
+# strip() method remove white spaces from leading and trailing 
+s="   Hello World   " 
+print(s)
+print(s.strip())
+
+s="###Hello###"
+print(s.strip("#"))
+s="Hello"
+print(s.strip("He"))
+
+#lstrip()
+s="##Hello##"
+print(s.lstrip("#"))
+
+#rstrip
+s="$$Hello$$"
+print(s.rstrip("$"))
+
+#split() method Used to split string into string
+s=("I am Shashikant")
+print(s.split())
+
+s="I$am$Shashikant"
+print(s.split('$',maxsplit=2))
+print(s.split('$',maxsplit=1))
+
+#rsplit()
+print(s.rsplit('$',maxsplit=1))
+
+#join() method  use to join elements of iterables
+l1=['H','e','l','l','o']
+print(''.join(l1))
+l2=['i','am','Shashikant']
+print('-'.join(l2))
+print(" ".join(l2))
+
+d={'name':'shashikant','age':'20'}
+print(" ".join(d))
+
+# replace()
+s="I love strawberry and strawberry"
+print(s.replace('strawberry','mango'))
+print(s.replace('strawberry','mango',1))
+
+# upper() method
+s="shashikant"
+print(s.upper())
+
+# lower() method
+s="SHASHIKANT"
+print(s.lower())
+
+#capitalize()
+s='i love India'
+print(s.capitalize())
+
+#isupper() It will give true if all alphabates are uppercase else give false
+s="SHASHIKANT"
+print(s.isupper())
+s="shashikant"
+print(s.isupper())
+
+#islower() It will give true if all alphabates are lowercase else give false
+s="shashikant"
+print(s.islower())
+s="SHASHIKANT"
+print(s.islower())
+
+#isalpha()
+s="Shashi"
+print(s.isalpha())
+s="shashi20"
+print(s.isalpha())
+
+#isnumeric()
+s="Shashikant"
+print(s.isnumeric())
+s="1234"
+print(s.isnumeric())
+
+# isalnum()
+s='shashikant20'
+print(s.isalnum())
+s="20"
+print(s.isalnum())
+s="Shashi"
+print(s.isalnum())
+
+#count() method
+s='I love fruits,fruits make me healthy'
+print(s.count('fruits'))
+s='I love fruits,Fruits make me healthy'
+print(s.count('fruits'))
+s='I love fruits,fruits make me healthy'
+print(s.count('fruits',0,13))
+s='I love fruits,fruits make me healthy'
+print(s.count('fruits',0,20))
+
+#find()
+s="Python is beautiful language"
+print(s.find('b'))
+print(s.find('b',0,8)) #-1
+
+# rfind() return the index of last occurence
+s="Python is beautiful language"
+print(s.rfind('u'))
+print(s.rfind('b',0,8)) #-1
+
+#index()
+s='Python is beautiful language'
+print(s.index('b'))
+# print(s.index('b',0,8)) ValueError: substring not found
+
+#rindex() return the index of last occurence
+s="python is beautiful language"
+print(s.rindex('u'))
+# print(s.rindex('b',0,8)) ValueError: substring not found
+
+
+
