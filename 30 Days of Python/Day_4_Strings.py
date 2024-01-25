@@ -270,7 +270,7 @@ print(s.index('b'))
 
 #rindex() return the index of last occurence
 s="python is beautiful language"
-print(s.rindex('u'))
+print("last occurence",s.rindex('u'))
 # print(s.rindex('b',0,8)) ValueError: substring not found
 
 

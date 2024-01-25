@@ -11,3 +11,12 @@ name=name+"kant"
 print(name)
 
 
+original_string = "Hello   World"
+new_string = "".join(original_string.split())
+print(new_string)
+
+print(original_string.replace("   ",''))
+
+
+s='I am monkey,I am,I am'
+print(s.replace("I","Me",2))
